@@ -74,4 +74,11 @@ function createRandomCircle() {
 function getRandomNumber(min, max) {
    return Math.round((Math.random() * (max-min) + min))
 }
-//colors[~~(Math.random() * colors.length)]
+
+function hack(ms) {
+    function single() {
+    let circle = document.querySelector('.circle')
+    circle.click()
+    }
+    setInterval(single, ms)
+}

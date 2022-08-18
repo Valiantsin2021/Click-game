@@ -46,6 +46,9 @@ h1 {
   margin-top: -100vh;
 }
 
+.screen.show {
+  margin-top: 0;
+}
 .time-list {
   display: flex;
   flex-wrap: wrap;
@@ -86,8 +89,8 @@ h1 {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 100vh;
+  height: 90vh;
   background: linear-gradient(118.38deg, #29323C -4.6%, #485563 200.44%);
   box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
   border-radius: 30px;
