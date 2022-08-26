@@ -43,11 +43,15 @@ h1 {
 }
 
 .screen.up {
-  margin-top: -100vh;
+    margin-top: -100vh;
 }
 
 .screen.show {
   margin-top: 0;
+}
+
+.screen.down {
+  margin-top: 100vh;
 }
 .time-list {
   display: flex;
